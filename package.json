@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-migration-utility",
+  "version": "1.0.0",
+  "description": "A utility for managing MongoDB migrations",
+  "main": "./src/index.js",
+  "bin": {
+    "mongodb-migrate": "src/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "mongodb",
+    "migration",
+    "utility"
+  ],
+  "author": "Bharadwaj Adapala",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "mongoose": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
